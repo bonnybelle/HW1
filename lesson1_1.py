@@ -11,7 +11,6 @@ j = min(a)
 print('Список:', a)
 print('Максимум:', i, '\nМинимум:', j, '\nИндекс максимума:', a.index(i), '\nИндекс минимума:', a.index(j))
 lst1 = list(a)
-lst2 = list(dict.fromkeys(a))
 f = 1
 
 
@@ -33,5 +32,5 @@ def frequency(lst1):
 while f < 4:
     print('Частовстречаемый элемент №', f, ': ', frequency(lst1), sep='')
     f += 1
-print('1.3.1 порядок не сохранялся:', lst1, '\n1.3.2 порядок сохранялся:', lst2)
+print('1.3.1 порядок не сохранялся:', lst1, '\n1.3.2 порядок сохранялся:', list(dict.fromkeys(a)))
 
