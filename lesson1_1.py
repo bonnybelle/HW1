@@ -27,7 +27,7 @@ def frequency(lst1):
             while x < cnt:
                 lst1.remove(c1)
                 cnt -= 1
-    return c1, 'Частота: %s' % cnt_1
+    return c1, 'Количество: %s' % cnt_1
 
 
 while f < 4:
